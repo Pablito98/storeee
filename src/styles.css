@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+/* Stili per la barra di navigazione */
+.navbar {
+    background-color: #4CAF50; /* Colore di sfondo verde */
+    padding: 10px 20px; /* Padding per aggiungere spazio attorno alla barra */
+    display: flex;
+    justify-content: center; /* Centra i link nella barra */
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Aggiungi una leggera ombra */
+  }
+  
+  .navbar-container {
+    display: flex;
+    gap: 20px; /* Spazio tra i link */
+  }
+  
+  .nav-link {
+    color: white; /* Colore del testo dei link */
+    text-decoration: none; /* Rimuovi la sottolineatura */
+    font-size: 18px; /* Imposta una dimensione del font adatta */
+    font-weight: bold; /* Rendilo in grassetto */
+    transition: color 0.3s; /* Aggiungi una transizione per l'effetto hover */
+  }
+  
+  .nav-link:hover {
+    color: #ffcc00; /* Colore del testo quando l'utente passa sopra il link */
+  }
+  
+  .nav-link:active {
+    color: #ff9900; /* Colore del testo quando il link viene cliccato */
+  }
+  

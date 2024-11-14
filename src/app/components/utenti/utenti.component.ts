@@ -3,11 +3,12 @@ import { UtenteService } from '../../services/utente.service'; // Modifica il pe
 import { Utente } from '../../models/utente.models'; // Modifica il percorso se necessario
 import { FormsModule } from '@angular/forms'; // Importa FormsModule per ngModel
 import { CommonModule } from '@angular/common'; // Importa CommonModule per le direttive Angular di base
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-utenti',
   standalone: true,
-  imports: [FormsModule, CommonModule], // Importa i moduli necessari per il template
+  imports: [FormsModule, CommonModule,HttpClientModule], // Importa i moduli necessari per il template
   template: `
     <div class="container mt-5">
       <!-- Titolo della pagina -->
